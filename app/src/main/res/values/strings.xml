@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MC Mod Manager</string>
+    <string name="perm_rational_title">Dosya Erişim İzni Gerekli</string>
+    <string name="perm_rational_desc">Minecraft modlarını (.mcworld, .mcaddon, .mctemplate, .mcpack) cihazınızda bulup kurabilmek için uygulamanın tüm dosyalara erişim iznine ihtiyacı vardır. Lütfen ayarlardan izin verin.</string>
+    <string name="btn_grant_permission">İzin Ver</string>
+    <string name="toast_minecraft_not_found">Minecraft Bedrock Edition yüklü görünmüyor!</string>
+    <string name="toast_file_opened_minecraft">Dosya Minecraft ile açılıyor...</string>
+</resources>

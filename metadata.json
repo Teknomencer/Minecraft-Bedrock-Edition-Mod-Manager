@@ -1,0 +1,6 @@
+{
+  "name": "Minecraft Mod Manager",
+  "description": "Kullanıcıların cihazlarındaki Minecraft Bedrock Edition modlarını (.mcworld, .mcaddon, .mctemplate, .mcpack) kolayca bulup tek tıkla kurmalarını sağlayan modern Mod Yöneticisi ve Kurucu uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

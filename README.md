@@ -1,21 +1,10 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+A simple Android application that automatically finds mod, add-on, and world files on your device and installs them to Minecraft Bedrock Edition (BE).
 
-# Run and deploy your AI Studio app
+### Features:
+* **Auto Scan:** Detects `.mcworld`, `.mcaddon`, `.mctemplate`, and `.mcpack` files in the device storage.
+* **Tabbed Structure:** Lists files in 4 different tabs according to their types (Add-ons, Packs, Templates, Worlds).
+* **One-Click Install:** Sends the selected file directly to the `com.mojang.minecraftpe` target via the `ACTION_VIEW` intent and starts the import process.
+* **Interface:** Dark/Light mode support.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/7d36a21b-b474-49a9-b8c3-4acc4a377d99
-
-## Run Locally
-
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
-
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+### Technical Requirements:
+* Uses the `MANAGE_EXTERNAL_STORAGE` permission on Android 11 and above for comprehensive file scanning.
